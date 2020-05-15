@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW6</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action method="GET">
+            <div class="header text-cap">
+                <span>contact manager</span>
+                <select name="actions" id="">
+                    <option disabled selected>More Actions</option>
+                    <option value="1">Action 1</option>
+                    <option value="2">Action 2</option>
+                    <option value="3">Action 3</option>
+                    <option value="4">Action 4</option>
+                </select>
+            </div>
+            <div class="main">
+                <div class="left-block text-cap">
+                    <label for="">
+                        <span class="recquired">first name</span>
+                        <input class="width40" value="" type="text" name="firstName" required>
+                    </label>
+                    <label for="">
+                        <span class="recquired">last name</span>
+                        <input class="width40" type="text" name="lastName" required>
+                    </label>
+                    <label for="">
+                        <span>City</span>
+                        <textarea class="width40" name="city" id="" cols="30" rows="5"></textarea>
+                    </label>
+                    <label for="">
+                        <span>state</span>
+                        <select class="width40 select-icon" name="State" id="">
+                            <option disabled selected>-select-</option>
+                            <option value="1">State 1</option>
+                            <option value="2">State 2</option>
+                            <option value="3">State 3</option>
+                            <option value="4">State 4</option>
+                        </select>
+                    </label>
+                    <label for="">
+                        <span>zip</span>
+                        <input class="width40" type="text" name="zip">
+                    </label>
+                    <label for="">
+                        <span>home phone</span>
+                        <input class="width40" type="tel" name="hp">
+                    </label>
+                    <label for="">
+                        <span class="recquired">work phone</span>
+                        <input class="width40" type="tel" required name="wp">
+                    </label>
+                    <label for="">
+                        <span>fax number</span>
+                        <input class="width40" type="tel" name="fp">
+                    </label>
+                    <label for="">
+                        <span>website</span>
+                        <div class="website">
+                            <span>url</span>
+                            <input type="text" name="url"> <br>
+                            <span>link name</span>
+                            <input type="text" name="link"> 
+                        </div> 
+                        
+                    </label>
+                    <label for="">
+                        <span class="recquired">Email adress</span>
+                        <input class="width40" type="email" required name="mail">
+                    </label>
+                    
+                </div>
+                <div class="right-block">
+                    <label for="">
+                        <div>
+                            <span>When is the best timt to contact you?</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="1">Morning <br>
+                            <input type="radio" name="2">Afternoon <br>
+                            <input type="radio" name="3">evening <br>
+                        </div>
+                    </label>
+                    <label for="">
+                        <div>
+                            <span>What is the best way to contact you?</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="2">Morning <br>
+                            <input type="radio" name="3">Afternoon <br>
+                            <input type="radio" name="4">evening <br>
+                        </div>
+                    </label>
+                    
+                    <label for="">
+                        <span class="text-cap">message</span>
+                        <textarea name="message" id="" cols="30" rows="5"></textarea>
+                    </label>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

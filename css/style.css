@@ -1,0 +1,104 @@
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid olivedrab;
+}
+
+.header {
+    background-color: palegreen;
+    padding: 15px;
+}
+
+div.header select {
+    border: none;
+    background-color: palegreen;
+}
+
+
+.main {
+    display: flex;
+
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+
+
+.website {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.website > span {
+    width: 45%;
+    
+}
+
+.website > input {
+    width: 45%;
+    margin-top: 3px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    background-color: palegreen;
+}
+
+.submit input {
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 5px;
+    width: 150px;
+    line-height: 20px;
+}
+
+.width40 {
+    width: 40%;
+    
+}
+
+.select-icon {
+    background-image: url(../img/icons8-плюс-50.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.recquired:after {
+    content: "*";
+    color: red;
+}
+
+
+.text-cap {
+    text-transform: capitalize;
+}
+
